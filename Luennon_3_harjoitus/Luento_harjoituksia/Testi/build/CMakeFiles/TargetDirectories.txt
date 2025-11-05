@@ -1,0 +1,3 @@
+/mnt/c/users/karsi/documents/olio-ohjelmointi/luento_3/luento_harjoituksia/testi/build/CMakeFiles/myapp.dir
+/mnt/c/users/karsi/documents/olio-ohjelmointi/luento_3/luento_harjoituksia/testi/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/karsi/documents/olio-ohjelmointi/luento_3/luento_harjoituksia/testi/build/CMakeFiles/rebuild_cache.dir
