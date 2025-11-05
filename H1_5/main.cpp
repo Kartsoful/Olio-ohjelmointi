@@ -9,7 +9,7 @@ int main() {
     cout << "Anna kokonaisluku: " << endl;
     cin >> x;
     int tupla = tuplaa(x);
-    luvuntulostus(tupla);
+    cout << "Antamasi luku tuplattuna on " << tupla << endl;
 }
 
 int tuplaa(int luku) { return luku * 2; }
