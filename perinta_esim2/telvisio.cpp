@@ -13,5 +13,7 @@ Telvisio::Telvisio(string n, double p, double s): Tuote(n, p) {
 }
 
 void Telvisio::printData() {
-
+    cout << " Name: " << this->getName() << ", Price: " << this->getPrice() << ", Size: " << screenSize << endl;
 }
+
+

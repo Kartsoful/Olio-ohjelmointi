@@ -1,6 +1,6 @@
 #include "tuote.h"
 
-string Tuote::getName()  {
+string Tuote::getName() const  {
     return name;
 }
 
@@ -17,10 +17,11 @@ void Tuote::setPrice(double newPrice) {
 }
 
 void Tuote::printData() {
-    cout<< "Tuote on " << name << ", Hinta: " << price << endl;
+    cout<< " Tuote: " << name << ", Price: " << price << endl;
 }
 
 Tuote::Tuote(string n, double d) {
     name = n;
     price = d;
 }
+

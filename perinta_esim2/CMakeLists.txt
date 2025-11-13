@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(perinta_esim2 main.cpp
     tuote.h tuote.cpp
-    telvisio.h telvisio.cpp)
+    telvisio.h telvisio.cpp
+    pesukone.h pesukone.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS perinta_esim2
