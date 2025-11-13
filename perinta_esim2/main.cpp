@@ -37,6 +37,7 @@ int main()
     for(auto tuote: tuoteLista) {
         tuote->printData();
     }
+    //auto sanan ansiosta kääntäjä tunnistaa olion luokan
 
     cout << endl;
     return 0;
