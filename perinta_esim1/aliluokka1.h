@@ -3,6 +3,7 @@
 
 #include "kantaluokka.h"
 
+
 class Aliluokka1 : public Kantaluokka
 {
 public:

@@ -1,6 +1,7 @@
 #ifndef KANTALUOKKA_H
 #define KANTALUOKKA_H
 
+
 class Kantaluokka
 {
 private:

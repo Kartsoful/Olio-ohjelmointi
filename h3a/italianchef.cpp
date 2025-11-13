@@ -1,7 +1,6 @@
 #include "italianchef.h"
 
 ItalianChef::ItalianChef(string n) : Chef(n) {
-    name = n;
     cout << "ItalianChef " << name << " konstruktori" << endl;
 }
 
