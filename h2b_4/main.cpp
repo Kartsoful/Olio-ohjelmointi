@@ -4,7 +4,7 @@
 #include <random>
 using namespace std;
 
-// Käytetty tekoälyä tässä kaverina
+// Käytetty tekoälyä tässä random-generaattorin tekemiseen kaverina
 double random_double(double min, double max) {
     static mt19937 gen(random_device{}());
     uniform_real_distribution<double> dist(min, max);
