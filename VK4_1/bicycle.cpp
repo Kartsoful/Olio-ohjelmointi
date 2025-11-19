@@ -4,7 +4,7 @@ using namespace std;
 
 
 Bicycle::Bicycle() {
-    cout << "A new Bicycle Created" << endl;
+    cout << "A new Bicycle created" << endl;
 }
 
 Bicycle::~Bicycle() {

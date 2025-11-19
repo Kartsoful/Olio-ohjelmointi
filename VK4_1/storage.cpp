@@ -4,9 +4,9 @@ using namespace std;
 
 
 Storage::Storage() {
-    cout << "A new Storage created" << endl;
+    cout << "A new bicycle storage created" << endl;
 }
 
 Storage::~Storage() {
-    cout << "Storage deleted" << endl;
+    cout << "Bicycle storage deleted" << endl;
 }
