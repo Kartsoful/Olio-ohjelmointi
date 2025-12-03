@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Interface_esimerkki main.cpp
-    imyinterface.h imyinterface.cpp)
+    imyinterface.h imyinterface.cpp
+    testclass.h testclass.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Interface_esimerkki
