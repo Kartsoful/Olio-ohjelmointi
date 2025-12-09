@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "page2.h"
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -20,8 +21,12 @@ public:
 private slots:
     void on_btnTest1_clicked();
     void btnTest2_clicked();
+    void openPage2();
+    void showNameFromPage2();
 
 private:
     Ui::MainWindow *ui;
+    QString name;
+    Page2 *objectPage2;
 };
 #endif // MAINWINDOW_H
